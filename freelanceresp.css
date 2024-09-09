@@ -1,0 +1,914 @@
+/* Responsive design */
+@media (max-width: 1280px)
+{
+    .logo_section{
+        width:20%;
+    }  
+    .menulink {
+        flex: 0 0 auto;
+        width: 60%;
+    }
+
+    .custom-modal-lg {
+        max-width: 98%;
+    }
+}
+
+@media (max-width: 1024px)
+{
+    #navbarsExample04 {
+        margin-left: 0px;
+    }
+    .logo_section{
+        width:24%;
+    }
+    .menulink {
+        flex: 0 0 auto;
+        width: 53%;
+    }
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        border-bottom: 1px solid #444;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-pills #pilhead {
+        background: none;
+        color: #65676b;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+    .inner > .display-two {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+    .piltabimg > img {
+        width: 650px;
+        height: 400px;
+    }
+    .servi, .feat {
+        margin-top: 50px;
+        text-align: left;
+        line-height: 40px;
+        width: 65%;
+    }
+    .servi h4, .feat h4 {
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .servicecontainer {
+        width: 46%;
+        background: #fafbfc;
+        text-align: center;
+        padding: 50px 20px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .featusec1, .featusec2 {
+        padding: 10px;
+    }
+    .featusec1 p {
+        /* padding: 25px; */
+        line-height: 25px;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 23px;
+        color: #a28f8f;
+    }
+    .featusec2 img {
+        width: 100%;
+        height: 75%;
+    }
+    .foot {
+        width: 20%;
+    }
+    #contactfoot{
+        width: 45%;
+    }
+    .legal{
+            width: 35%;
+        }
+    .sociallink {
+        font-size: 17px;
+        font-weight: 600;
+        color: black;
+        text-decoration: none;
+        padding: 15px 20px;
+    }
+    .footlogo img {
+        width: 350px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    #footerlogo{
+        width:100%;
+    }
+    /* modal */
+    .custom-modal-lg {
+        max-width: 97%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 912px)
+{
+    #navbarsExample04 {
+        margin-left: 0px;
+    }
+    .logo_section{
+        width:27%;
+    }
+    .menulink {
+        flex: 0 0 auto;
+        width: 65%;
+        margin-left: 0px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        border-bottom: 1px solid #444;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-pills #pilhead {
+        background: none;
+        color: #65676b;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+    .inner > .display-two {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+    .piltabimg > img {
+        width: 580px;
+        height: 400px;
+    }
+    .servi, .feat {
+        margin-top: 50px;
+        text-align: left;
+        line-height: 40px;
+        width: 97%;
+    }
+    .servi h4, .feat h4 {
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .servicecontainer {
+        width: 45%;
+        background: #fafbfc;
+        text-align: center;
+        padding: 50px 20px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .featusec1, .featusec2 {
+        padding: 10px;
+    }
+    .featusec1 p {
+        /* padding: 25px; */
+        line-height: 25px;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 20px;
+        color: #3b3131;
+    }
+    .featusec2 img {
+        width: 100%;
+        height: 75%;
+    }
+    .foot {
+        width: 20%;
+    }
+    #contactfoot{
+        width: 45%;
+    }
+    .legal{
+            width: 35%;
+        }
+    .sociallink {
+        font-size: 17px;
+        font-weight: 600;
+        color: black;
+        text-decoration: none;
+        padding: 15px 20px;
+    }
+    .footlogo img {
+        width: 350px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    #footerlogo{
+        width:100%;
+    }
+
+    /* modal */
+    .custom-modal-lg {
+        max-width: 100%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    #navbarsExample04 {
+        margin-left: 0px;
+    }
+    .logo_section{
+        width:25%;
+    }
+    .menulink {
+        flex: 0 0 auto;
+        width: 70%;
+    }
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        border-bottom: 1px solid #444;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-pills #pilhead {
+        background: none;
+        color: #65676b;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+    .inner > .display-two {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+    .piltabimg > img {
+        width: 580px;
+        height: 400px;
+    }
+    .servi, .feat {
+        margin-top: 50px;
+        text-align: left;
+        line-height: 40px;
+        width: 97%;
+    }
+    .servi h4, .feat h4 {
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .servicecontainer {
+        width: 44%;
+        background: #fafbfc;
+        text-align: center;
+        padding: 50px 20px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .featusec1 p {
+        /* padding: 25px; */
+        line-height: 25px;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 20px;
+        color: #3b3131;
+    }
+    .featusec2 img {
+        width: 100%;
+        height: 75%;
+    }
+    .foot {
+        width: 30%;
+    }
+    #contactfoot{
+        width: 50%;
+    }
+    .legal{
+            width: 50%;
+        }
+}
+
+@media (max-width: 540px){
+    .logo img {
+        width: 150px;
+        height: 52px;
+        /* margin-bottom: 10px; */
+    }
+    .menulink{
+        flex-shrink: 0;
+        width: 30%;
+        max-width: 100%;
+    }
+    .read_more {
+        font-size: 17px;
+        /* background-color: #413c31; */
+        background: linear-gradient(55.82deg, #2B44CC 17.79%, #E487F3 77.35%);
+        margin-top: -9px;
+        color: white !important;
+        padding: 4px 6px;
+        width: 65%;
+        max-width: 157px;
+        text-align: center;
+        display: inline-block;
+        transition: ease-in all 0.5s;
+        font-weight: 500;
+        border-radius: 5px;
+        height: 35px;
+        text-decoration: none;
+    }
+    .collapse:not(.show) {
+        display: none;
+    }
+    .rainbowsec1 {
+        margin-top: 30px;
+    }
+    .inner > .display-two {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .inner > .description {
+        color: #65676b;
+        font-size: 20px;
+    }
+    .nav-pills{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #home p, #menu1 p, #menu2 p {
+        padding: 4px 10px;
+    }
+    .piltabimg > img {
+        width: 250px;
+        height: 180px;
+    }
+    .acbtn {
+        padding: 15px 40px;
+        border: 1px solid gray;
+        background: none;
+        border-radius: 15px;
+        font-size: large;
+        color: #222324;
+        width: 251px;
+    }
+    .acbtn:hover{
+        color: white;
+        border:1px solid #f081c4;
+        background:  #f081c4;;
+    }
+    .featurerow {
+        border: 1px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .featusec2 img {
+        width: 100%;
+        height: 75%;
+    }
+    .basiccolm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .servi, .feat {
+        margin-top: 50px;
+        text-align: left;
+        line-height: 40px;
+        width: 100%;
+    }
+    .servi h6, .feat h6 {
+        color: #2B44CC;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .servi h4, .feat h4 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .servi p, .feat p {
+        font-weight: 500;
+        font-size: 21px;
+        color: #65676b;
+        line-height: 20px;
+    }
+    .servicecontainer {
+        width: 91%;
+    }
+    .feature h4 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .footlogo img {
+        width: 300px;
+        height: 100px;
+        margin-top: 7px;
+    }
+    .foot {
+        width: 30%;
+    }
+    #contactfoot {
+        width: 70%;
+    }
+    .legal{
+            width: 70%;
+    }
+    #footerlogo{
+        width:100%;
+    }
+}
+
+@media (max-width: 430px){
+    .logo img {
+        width: 150px;
+        height: 52px;
+        /* margin-bottom: 10px; */
+    }
+    .menulink{
+        flex-shrink: 0;
+        width: 30%;
+        max-width: 100%;
+    }
+    .read_more {
+        font-size: 17px;
+        /* background-color: #413c31; */
+        background: linear-gradient(55.82deg, #2B44CC 17.79%, #E487F3 77.35%);
+        margin-top: -9px;
+        color: white !important;
+        padding: 4px 6px;
+        width: 65%;
+        max-width: 157px;
+        text-align: center;
+        display: inline-block;
+        transition: ease-in all 0.5s;
+        font-weight: 500;
+        border-radius: 5px;
+        height: 35px;
+        text-decoration: none;
+    }
+    .navbar-toggler{
+        margin-right:70px;
+    }
+    .menulink {
+        width: 60%;
+        text-align: center;
+        /* margin-left: 38px; */
+        display: inline-flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    .rainbowsec1{
+        margin-top:100px;
+    }
+    .nav-pills #pilhead {
+        background: none;
+        color: #65676b;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .nav-pills #pilhead.active {
+        font-size: 25px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    .inner > .display-two {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .inner > .description {
+        color: #65676b;
+        font-size: 20px;
+    }
+    .nav-pills{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #home p, #menu1 p, #menu2 p {
+        padding: 4px 10px;
+    }
+    .piltabimg > img {
+        width: 250px;
+        height: 180px;
+    }
+    .acbtn {
+        padding: 15px 40px;
+        border: 1px solid gray;
+        background: none;
+        border-radius: 15px;
+        font-size: large;
+        color: #222324;
+        width: 251px;
+    }
+    .acbtn:hover{
+        color: white;
+        border:1px solid #f081c4;
+        background:  #f081c4;;
+    }
+    .featurerow {
+        border: 1px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .featusec2 img {
+        width: 100%;
+        height: 75%;
+    }
+    .basiccolm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .servi, .feat {
+        margin-top: 50px;
+        text-align: left;
+        line-height: 40px;
+        width: 100%;
+    }
+    .servi h6, .feat h6 {
+        color: #2B44CC;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .servi h4, .feat h4 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .servi p, .feat p {
+        font-weight: 500;
+        font-size: 18px;
+        color: #65676b;
+        line-height: 20px;
+    }
+    .servicecontainer {
+        width: 91%;
+    }
+    .feature h4 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .footlogo img {
+        width: 300px;
+        height: 100px;
+        margin-top: 7px;
+    }
+    /* modal */
+    .custom-modal-lg {
+        max-width: 97%;
+    }
+     .basic,.standard,.premium{
+        margin-bottom:15px;
+     }
+}
+
+
+
+@media (max-width: 375px){
+    .logo img {
+        width: 150px;
+        height: 52px;
+        /* margin-bottom: 10px; */
+    }
+    .menulink{
+        flex-shrink: 0;
+        width: 30%;
+        max-width: 100%;
+    }
+    .read_more {
+        font-size: 17px;
+        /* background-color: #413c31; */
+        background: linear-gradient(55.82deg, #2B44CC 17.79%, #E487F3 77.35%);
+        margin-top: -9px;
+        color: white !important;
+        padding: 4px 6px;
+        width: 65%;
+        max-width: 157px;
+        text-align: center;
+        display: inline-block;
+        transition: ease-in all 0.5s;
+        font-weight: 500;
+        border-radius: 5px;
+        height: 35px;
+        text-decoration: none;
+    }
+
+    .navbar-toggler{
+        margin-right:70px;
+    }
+    .rainbowsec1{
+        margin-top:100px;
+    }
+    .inner > .display-two {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .inner > .description {
+        color: #65676b;
+        font-size: 20px;
+    }
+    .nav-pills{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .nav-pills #pilhead {
+        background: none;
+        color: #65676b;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .nav-pills #pilhead.active {
+        font-size: 21px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    #home p, #menu1 p, #menu2 p {
+        padding: 4px 10px;
+    }
+    .piltabimg > img {
+        width: 250px;
+        height: 180px;
+    }
+    .acbtn {
+        padding: 15px 40px;
+        border: 1px solid gray;
+        background: none;
+        border-radius: 15px;
+        font-size: large;
+        color: #222324;
+        width: 251px;
+    }
+    .acbtn:hover{
+        color: white;
+        border:1px solid #f081c4;
+        background:  #f081c4;;
+    }
+    .featurerow {
+        border: 1px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .featusec2 img {
+        width: 327px;
+        height: 250px;
+    }
+    .basiccolm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .servi, .feat {
+        margin-top: 50px;
+        text-align: left;
+        line-height: 40px;
+        width: 100%;
+    }
+    .servi h6, .feat h6 {
+        color: #2B44CC;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .servi h4, .feat h4 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .servi p, .feat p {
+        font-weight: 500;
+        font-size: 18px;
+        color: #65676b;
+        line-height: 20px;
+    }
+    .servicecontainer {
+        width: 91%;
+    }
+    .feature h4 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .footlogo img {
+        width: 300px;
+        height: 100px;
+        margin-top: 7px;
+    }
+    .foot {
+        width: 100%;
+     }
+     #contactfoot {
+        width: 100%;
+    }
+     .legal{
+        width:100%;
+     }
+
+
+     /* modal */
+     .custom-modal-lg {
+        max-width: 97%;
+    }
+     .basic,.standard,.premium{
+        margin-bottom:15px;
+     }
+
+     
+}
+
+@media (max-width: 360px) {
+    .featusec2 img {
+        width: 313px;
+        height: 75%;
+    }
+}
+@media (max-width: 344px){
+    .logo img {
+        width: 150px;
+        height: 52px;
+        /* margin-bottom: 10px; */
+    }
+    .menulink{
+        flex-shrink: 0;
+        width: 30%;
+        max-width: 100%;
+    }
+    .nav-pills #pilhead {
+        background: none;
+        color: #65676b;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .nav-pills #pilhead.active {
+        font-size: 20px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    .read_more {
+        font-size: 17px;
+        /* background-color: #413c31; */
+        background: linear-gradient(55.82deg, #2B44CC 17.79%, #E487F3 77.35%);
+        margin-top: -9px;
+        color: white !important;
+        padding: 4px 6px;
+        width: 65%;
+        max-width: 157px;
+        text-align: center;
+        display: inline-block;
+        transition: ease-in all 0.5s;
+        font-weight: 500;
+        border-radius: 5px;
+        height: 35px;
+        text-decoration: none;
+    }
+    .rainbowsec1{
+        margin-top:25px;
+    }
+    .inner > .display-two {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .inner > .description {
+        color: #65676b;
+        font-size: 20px;
+    }
+    .nav-pills{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #home p, #menu1 p, #menu2 p {
+        padding: 4px 10px;
+    }
+    .piltabimg > img {
+        width: 250px;
+        height: 180px;
+    }
+    .acbtn {
+        padding: 15px 40px;
+        border: 1px solid gray;
+        background: none;
+        border-radius: 15px;
+        font-size: large;
+        color: #222324;
+        width: 251px;
+    }
+    .acbtn:hover{
+        color: white;
+        border:1px solid #f081c4;
+        background:  #f081c4;;
+    }
+    .featurerow {
+        border: 1px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .featusec2 img {
+        width: 280px;
+        height: 75%;
+    }
+    .basiccolm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .servi, .feat {
+        margin-top: 50px;
+        text-align: left;
+        line-height: 40px;
+        width: 100%;
+    }
+    .servi h6, .feat h6 {
+        color: #2B44CC;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .servi h4, .feat h4 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .servi p, .feat p {
+        font-weight: 500;
+        font-size: 20px;
+        color: #65676b;
+        line-height: 25px;
+    }
+    .servicecontainer {
+        width: 91%;
+    }
+    .featusec1, .featusec2 {
+        padding: 10px;
+    }
+    .feature h4 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .footlogo img {
+        width: 300px;
+        height: 100px;
+        margin-top: 7px;
+    }
+    .basesec1 p, .basesec2 p {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 3px;
+    }
+    .foot {
+        width: 100%;
+    }
+    #contactfoot{
+        width: 100%;
+    }
+    .legal{
+            width: 100%;
+        }
+    .sociallink {
+        font-size: 17px;
+        font-weight: 600;
+        color: black;
+        text-decoration: none;
+        padding: 15px 15px;
+    }
+}
